@@ -53,13 +53,14 @@ submission/
     ```bash
     docker-compose up --build
 
-
-
-
-
-Ссылка на видео в GoogleDrive:
-https://drive.google.com/file/d/1b_HvksFInuErb1B99OTGwx_U59PCrQ6s/view?usp=sharing
-
 3. **Откройте в браузере:**
     Frontend (Дашборд): http://localhost:8501
     Backend (Docs): http://localhost:8000/docs
+
+
+
+
+СCЫЛКА на видео в GoogleDrive:
+https://drive.google.com/file/d/1b_HvksFInuErb1B99OTGwx_U59PCrQ6s/view?usp=sharing
+
+   
