@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: alpha_backend
+    ports:
+      - "8000:8000"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: alpha_frontend
+    ports:
+      - "8501:8501"
+    environment:
+      # Внутри Docker фронтенд должен стучаться к бэкенду по имени сервиса
+      - API_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: always
